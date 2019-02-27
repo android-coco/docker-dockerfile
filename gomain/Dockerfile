@@ -1,3 +1,4 @@
 FROM scratch
-ADD main /
+COPY main /main
+WORKDIR /main
 CMD ["/main"]
